@@ -1,0 +1,55 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+background-color: rgba(19, 21, 55, 1);
+
+
+}
+
+.container {
+  padding: 32px;
+}
+
+.hidden {
+
+  display:none;
+}
+
+.info {
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    padding: 24px;
+    margin-bottom: 99px;
+}
+
+.game button {
+
+  border-style: none;
+  background: none;
+}
+
+.oyuncu {
+  background: linear-gradient(0deg, #F3F3F3 0%, #FFFFFF 100%);
+    padding: 23px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h2 {
+  font-family: Barlow Semi Condensed;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 1);
+}
